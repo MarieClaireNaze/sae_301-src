@@ -1,0 +1,239 @@
+/*Polices, importation*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat-regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #E6E8E6;
+}
+
+.header {
+    background-color: #97B8AD;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header_icon {
+    width: 20px; /* Largeur de l'icône */
+    height: 20px; /* Hauteur de l'icône */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+}
+
+.logo {
+    font-size: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.hero-description {
+    background-color: #97B8AD;
+    color: #000000;
+    padding: 20px; /* Ajoute un peu d'espace autour du texte */
+    font-family: 'Montserrat-regular';
+}
+
+.hero-description-2{
+    background-color: #475841;
+    color: #000000;
+    padding: 20px; /* Ajoute un peu d'espace autour du texte */
+    
+}
+
+.hero-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5); /* Noir transparent */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    font-family: 'Michroma', sans-serif;
+}
+
+.overlay h2,
+.overlay p {
+    color: #ffffff; /* Assure que la couleur est bien définie en blanc */
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.overlay p {
+    text-align: center;
+    color: #b6b6b6;
+    padding: 20px; /* Ajoute un peu d'espace autour du texte */
+    font-family: 'Montserrat-regular';
+}
+
+/* Titre texte */
+
+.purchase-section {
+    text-align: center;
+    color: #000; /* Couleur noire */
+    padding: 20px;
+    font-family: 'Montserrat-regular';
+}
+
+.purchase-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 50px;
+    height: 1px;
+    background-color: #000; /* Couleur noire */
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-section {
+    background-color: #98A285;
+    padding: 50px 0;
+}
+
+.rectangle {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-wrapper-8 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+    font-family: 'Michroma', sans-serif;
+
+}
+
+.overlap-5 {
+    position: absolute ;
+    width: 1920px;
+    height: 436px;
+    left: 0;
+    background-color: #475841;
+    margin: 0;
+    color: #000000;
+  }
+ 
+
+  .green-button {
+    background-color: #475841; /* Couleur verte */
+    color: white; /* Texte blanc */
+    border: none; /* Pas de bordure */
+    padding: 15px 30px; /* Rembourrage pour le bouton */
+    text-align: center; /* Texte centré */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris en forme de main */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.green-button:hover {
+    background-color: #97B8AD; /* Couleur verte légèrement plus foncée au survol */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.avis {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+footer {
+    background-color: #333; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto; /* Centrez le logo horizontalement */
+    max-width: 100px; /* Ajustez la largeur maximale du logo */
+}
+
+.links a {
+    color: #fff; /* Couleur des liens */
+    text-decoration: none; /* Supprime les soulignements des liens */
+    margin: 10px; /* Espace entre les liens */
+    font-size: 14px;
+    font-family: 'Montserrat-regular';
+}
+
+.links a:hover {
+    text-decoration: underline; /* Soulignez les liens au survol */
+}
+
+
